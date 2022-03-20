@@ -1,0 +1,12 @@
+npm install -g --save-dev html-validate
+
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+
+  "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}

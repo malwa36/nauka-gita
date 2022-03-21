@@ -10,3 +10,9 @@ npm install -g --save-dev html-validate
     "void": ["warn", {"style": "omit"}]
   }
 }
+
+
+npm install --save-dev html-validate
+
+
+node_modules/.bin/html-validate *.html
